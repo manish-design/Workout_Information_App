@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>exercise</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card (click)="BICEP()" routerLink="/bicep">
+    <img src={{bicep}}>
+  <ion-card-header>
+    BICEP
+  </ion-card-header>
+  </ion-card>
+  <ion-card  (click)="TRICEP()" routerLink="/tricep">
+    <img src={{tricep}}>
+    <ion-card-header>
+      TRICEP
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="SHOULDER()" routerLink="/shoulder">
+    <img src={{shoulder}}>
+    <ion-card-header>
+      SHOULDER
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="CHEST()" routerLink="/chest">
+    <img src={{chest}}>
+    <ion-card-header>
+      CHEST
+    </ion-card-header>
+    </ion-card>
+  <ion-card (click)="BACK()" routerLink="/back">
+    <img src={{back}}>
+    <ion-card-header>
+      BACK
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="CARDIO()" routerLink="/cardio">
+    <img src={{cardio}}>
+    <ion-card-header>
+      CARDIO
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="FOREARM()" routerLink="/forearm">
+    <img src={{forearm}}>
+    <ion-card-header>
+      forearm
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="CALF()" routerLink="/calf">
+    <img src={{calf}}>
+    <ion-card-header>
+      CALF
+    </ion-card-header>
+  </ion-card>
+</ion-content>
+
